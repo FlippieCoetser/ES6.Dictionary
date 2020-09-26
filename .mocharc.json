@@ -1,0 +1,11 @@
+{
+    "require": ["source-map-support/register"],
+    "reporter": "mochawesome",
+    "reporterOptions": [
+        "reportDir=reports/unit.tests",
+        "json=false",
+        "inline=true",
+        "charts=true"
+    ],
+    "spec": "./test/**/*.js"
+}

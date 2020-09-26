@@ -1,0 +1,13 @@
+.nyc_output/*
+.vscode/*
+demo/*
+node_modules/*
+reports/*
+src/*
+tasks/*
+tests/*
+.git
+.gitignore
+.mocharc.json
+.nycrs.json
+wallaby.js
