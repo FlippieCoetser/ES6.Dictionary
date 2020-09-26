@@ -1,4 +1,4 @@
 # Dictionary
-![Unit Testing](https://github.com/FlippieCoetser/Dictionary/workflows/Unit.Testing/badge.svg)
+![QA](https://github.com/FlippieCoetser/Dictionary/workflows/QA/badge.svg)
 
 Simple Typescript Dictionary
