@@ -1,0 +1,2 @@
+# Dictionary
+Simple Typescript Dictionary
