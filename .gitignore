@@ -2,3 +2,9 @@ node_modules/
 reports/
 .nyc_output/
 .vscode/
+src/*.js
+src/*.js.map
+src/*.d.ts
+test/*.js
+test/*.js.map
+test/*.d.ts
