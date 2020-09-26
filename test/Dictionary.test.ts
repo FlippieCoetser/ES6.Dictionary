@@ -19,7 +19,7 @@ describe("Given Dictionary<T>", () => {
         let dictionary = new Dictionary<T>();
 
         let key = dictionary.get("key");
-        expect(key).eql(true); 
+        expect(key).eql(undefined); 
       });
       it("Then count() should eql 0", () => {
         let dictionary = new Dictionary<T>();
