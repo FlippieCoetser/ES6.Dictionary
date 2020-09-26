@@ -1,4 +1,4 @@
-![Unit Tests](https://github.com/FlippieCoetser/Dictionary/workflows/.github/workflows/Unit.Testing/badge.svg?branch=master)
+![Unit Testing](https://github.com/FlippieCoetser/Dictionary/workflows/Unit.Testing/badge.svg)
 
 # Dictionary
 Simple Typescript Dictionary
