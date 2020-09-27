@@ -1,6 +1,6 @@
 {
   "name": "es6.dictionary",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ES6  Dictionary Implemented in Typescript",
   "scripts": {
     "clean.lib": "node ./tasks/clean.lib.js",
@@ -12,10 +12,7 @@
     "posttest": "npm run clean.test",
     "prepublish": "npm run build.lib"
   },
-  "files": [
-    "lib/Dictionary.js",
-    "lib/Dictionary.d.ts"
-  ],
+  "files": ["lib/"],
   "keywords": [
     "Front-end",
     "ES6",
@@ -23,9 +20,9 @@
     "Data Structure",
     "Dictionary"
   ],
-  "main":"lib/Dictionary.js",
-  "module": "lib/Dictionary.js",
-  "types": "lib/Dictionary.d.ts",
+  "main":"./lib/Dictionary.js",
+  "module": "./lib/Dictionary.js",
+  "types": "./lib/Dictionary.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FlippieCoetser/Dictionary.git"
