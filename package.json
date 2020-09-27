@@ -1,10 +1,10 @@
 {
   "name": "es6.dictionary",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ES6  Dictionary Implemented in Typescript",
-  "main": "./lib/cjs/index.js",
-  "module": "./lib/esm/index.js",
-  "types":"./lib/esm/index.d.ts",
+  "main": "./lib/cjs/Dictionary.js",
+  "module": "./lib/esm/Dictionary.js",
+  "types":"./lib/esm/Dictionary.d.ts",
   "scripts": {
     "clean.lib.esm": "node ./tasks/clean.lib.esm.js",
     "clean.lib.cjs": "node ./tasks/clean.lib.cjs.js",
