@@ -1,6 +1,6 @@
 {
   "name": "es6.dictionary",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ES6  Dictionary Implemented in Typescript",
   "scripts": {
     "clean.lib": "node ./tasks/clean.lib.js",
@@ -23,6 +23,7 @@
     "Data Structure",
     "Dictionary"
   ],
+  "main":"lib/Dictionary.js",
   "module": "lib/Dictionary.js",
   "types": "lib/Dictionary.d.ts",
   "repository": {
