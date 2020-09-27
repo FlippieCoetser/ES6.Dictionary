@@ -1,8 +1,7 @@
 {
-  "name": "dictionary",
+  "name": "es6.dictionary",
   "version": "1.0.0",
-  "description": "Simple Typescript Dictionary",
-  "main": "index.js",
+  "description": "ES6  Dictionary Implemented in Typescript",
   "scripts": {
     "clean.lib": "node ./tasks/clean.lib.js",
     "clean.test": "node ./tasks/clean.test.js",
@@ -10,9 +9,18 @@
     "build.test": "npm run clean.test && tsc -p ./tasks/build.test.json",
     "pretest": "npm run build.test",
     "test": "nyc mocha --config .mocharc.json",
-    "posttest": "npm run clean.test"
+    "posttest": "npm run clean.test",
+    "prepublish": "npm run build.lib",
+    "publish": "npm publish"
   },
+  "files": [
+    "lib/Dictionary.js",
+    "lib/Dictionary.d.ts"
+  ],
   "keywords": [
+    "Front-end",
+    "ES6",
+    "Typescript",
     "Data Structure",
     "Dictionary"
   ],
