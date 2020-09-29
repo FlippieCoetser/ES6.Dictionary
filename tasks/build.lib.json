@@ -7,13 +7,12 @@
         "declaration": true,
         "noImplicitAny": true,
         "rootDir": "../src",
-        "sourceMap": true,
         "noResolve": true,
         "allowJs": true,
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "types": [],
-        "outDir": "../lib/esm/"
+        "outDir": "../lib/"
     },
     "include": [ "../src/**/*.ts" ],
     "exclude": [ "../node_modules/*"]

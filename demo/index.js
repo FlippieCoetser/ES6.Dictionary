@@ -1,4 +1,4 @@
-import { Dictionary } from '../lib/esm/Dictionary.js'
+import { Dictionary } from '../lib/Dictionary.js'
 
 let dictionary = new Dictionary();
 dictionary.add('key','value');
