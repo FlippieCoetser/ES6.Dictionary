@@ -1,8 +1,8 @@
 {
   "name": "es6.dictionary",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "ES6  Dictionary Implemented in Typescript",
-  "main": "./lib/cjs/Dictionary.js",
+  "main": "./lib/esm/Dictionary.js",
   "module": "./lib/esm/Dictionary.js",
   "types":"./lib/esm/Dictionary.d.ts",
   "scripts": {
