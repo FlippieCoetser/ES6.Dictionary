@@ -1,10 +1,10 @@
 {
-  "name": "es6.dictionary",
+  "name": "es6.component",
   "version": "1.0.8",
-  "description": "ES6  Dictionary Implemented in Typescript",
-  "main": "./lib/Dictionary.js",
-  "module": "./lib/Dictionary.js",
-  "types":"./lib/Dictionary.d.ts",
+  "description": "ES6  Web Component in Typescript",
+  "main": "./lib/Component.js",
+  "module": "./lib/Component.js",
+  "types": "./lib/Component.d.ts",
   "scripts": {
     "clean.lib": "node ./tasks/clean.lib.js",
     "clean.test": "node ./tasks/clean.test.js",
@@ -27,14 +27,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlippieCoetser/Dictionary.git"
+    "url": "git+https://github.com/FlippieCoetser/Component.git"
   },
   "author": "PJ Coetser",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FlippieCoetser/Dictionary/issues"
+    "url": "https://github.com/FlippieCoetser/Component/issues"
   },
-  "homepage": "https://github.com/FlippieCoetser/Dictionary#readme",
+  "homepage": "https://github.com/FlippieCoetser/Component#readme",
   "devDependencies": {
     "@types/chai": "^4.2.12",
     "@types/mocha": "^8.0.3",
