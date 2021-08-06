@@ -2,12 +2,29 @@
 <html>
   <head>
     <title>Getting Started</title>
+    <link rel="stylesheet" href="html.style.css">
   </head>
   <body>
-    <!-- To dynamically load module in Chrome Console, type:
-         let { Dictionary } = await import('../lib/Dictionary.js') -->
-    <script type="module" src="index.js">
-    </script>
+   <h1>
+     In HTML Created H1
+   </h1>
+
+    <script type="module" src="index.js"></script>
+    <app-button></app-button>
   </body>
+
+  <template id="CustomTemplate">
+    <head>
+      <link rel="stylesheet" href="template.style.css">
+    </head>
+    <body>
+      <h1>
+        In Template Created H1
+      </h1> 
+      <h2>
+        In Template Created H2
+      </h2>
+    </body>
+  </template>
 </html>
 
