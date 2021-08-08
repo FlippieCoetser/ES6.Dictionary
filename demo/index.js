@@ -7,4 +7,4 @@ let value = dictionary.get('key');
 console.log(value)
 
 import { Component } from '../lib/Component.js'
-customElements.define('app-button', Component);
+customElements.define('app-component', Component);
