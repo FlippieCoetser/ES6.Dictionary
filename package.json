@@ -4,7 +4,7 @@
   "description": "ES6  Dictionary Implemented in Typescript",
   "main": "./lib/Dictionary.js",
   "module": "./lib/Dictionary.js",
-  "types":"./lib/Dictionary.d.ts",
+  "types": "./lib/Dictionary.d.ts",
   "scripts": {
     "clean.lib": "node ./tasks/clean.lib.js",
     "clean.test": "node ./tasks/clean.test.js",
