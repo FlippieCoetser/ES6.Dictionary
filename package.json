@@ -1,5 +1,5 @@
 {
-  "name": "es6.dictionary",
+  "name": "es6.component",
   "version": "1.0.8",
   "description": "ES6  Dictionary Implemented in Typescript",
   "main": "./lib/Dictionary.js",
@@ -27,14 +27,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlippieCoetser/Dictionary.git"
+    "url": "git+https://github.com/FlippieCoetser/Component.git"
   },
   "author": "PJ Coetser",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FlippieCoetser/Dictionary/issues"
+    "url": "https://github.com/FlippieCoetser/Component/issues"
   },
-  "homepage": "https://github.com/FlippieCoetser/Dictionary#readme",
+  "homepage": "https://github.com/FlippieCoetser/Component#readme",
   "devDependencies": {
     "@types/chai": "^4.2.12",
     "@types/mocha": "^8.0.3",
@@ -49,7 +49,6 @@
     "nyc": "^15.1.0",
     "sinon": "^9.0.3",
     "sinon-chai": "^3.5.0",
-    "source-map-support": "^0.5.19",
-    "typescript": "^4.0.2"
+    "source-map-support": "^0.5.19"
   }
 }
