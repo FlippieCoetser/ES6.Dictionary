@@ -2,16 +2,16 @@
   "name": "es6.component",
   "version": "1.0.8",
   "description": "ES6  Dictionary Implemented in Typescript",
-  "main": "./lib/Dictionary.js",
-  "module": "./lib/Dictionary.js",
-  "types": "./lib/Dictionary.d.ts",
+  "browser": "./lib/dictionary.js",
+  "module": "./lib/dictionary.js",
+  "types": "./lib/dictionary.d.ts",
   "scripts": {
-    "clean.lib": "node ./tasks/clean.lib.js",
-    "clean.test": "node ./tasks/clean.test.js",
+    "clean.lib": "node ./tasks/clean.lib.mjs",
+    "clean.test": "node ./tasks/clean.test.mjs",
     "build.lib": "npm run clean.lib && tsc -p ./tasks/build.lib.json",
     "build.test": "npm run clean.test && tsc -p ./tasks/build.test.json",
     "pretest": "npm run build.test",
-    "test": "nyc mocha --config .mocharc.json",
+    "test": "karma start",
     "posttest": "npm run clean.test",
     "prepublish": "npm run build.lib"
   },
@@ -39,8 +39,10 @@
     "@types/jasmine": "^4.0.3",
     "@types/node": "^14.11.1",
     "jasmine": "^4.2.1",
+    "karma": "^6.4.0",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-jasmine": "^5.1.0",
     "node-cmd": "^3.0.0",
-    "node-delete": "^0.1.2",
     "source-map-support": "^0.5.19"
   }
 }

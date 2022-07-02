@@ -1,4 +1,4 @@
-import { Dictionary } from '../lib/Dictionary.js'
+import { Dictionary } from '../lib/dictionary.js'
 
 let dictionary = new Dictionary();
 dictionary.add('key','value stored in dictionary');
