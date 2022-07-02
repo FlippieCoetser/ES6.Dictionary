@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
-        "target": "es6",
+        "module": "es2020",
+        "target": "es2020",
         "declaration": true,
         "inlineSourceMap": true
     },
     "include": [
+        "../src/*.ts",
         "../test/*.ts"
     ]
 }
