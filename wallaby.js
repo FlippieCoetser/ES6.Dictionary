@@ -6,7 +6,7 @@ module.exports = function (wallaby) {
     tests: [
       'test/Dictionary.test.ts'
     ],
-    testFramework: 'mocha',
+    testFramework: 'jasmine',
     env: {
         type: 'node'
     },
