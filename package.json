@@ -27,14 +27,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlippieCoetser/Component.git"
+    "url": "git+https://github.com/FlippieCoetser/ES6.Dictionary.git"
   },
   "author": "PJ Coetser",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FlippieCoetser/Component/issues"
+    "url": "https://github.com/FlippieCoetser/ES6.Dictionary/issues"
   },
-  "homepage": "https://github.com/FlippieCoetser/Component#readme",
+  "homepage": "https://github.com/FlippieCoetser/ES6.Dictionary#readme",
   "devDependencies": {
     "@types/jasmine": "^4.0.3",
     "@types/node": "^14.11.1",
